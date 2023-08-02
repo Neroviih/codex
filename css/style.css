@@ -1,25 +1,26 @@
 * {
-  * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-  }
-  .body {
-    background-color: hsl(216, 19%, 11%);
-    font-family: "Kanit", sans-serif;
-    color: #ffffff;
-    margin: 0;
-  }
-  .header {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    background-color: #101010;
-    justify-content: space-between;
-  }
-  .header_logo {
-    width: 100%;
-    height: 50px;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.body {
+  background-color: white;
+  font-family: "Kanit", sans-serif;
+  color: #000000;
+  margin: 0;
+}
+.header {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.header_bg {
+  width: 100%;
+}
+.header_div {
+  position: absolute;
+}
+.header_logo {
+  height: 250px;
 }
